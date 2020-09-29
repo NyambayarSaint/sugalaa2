@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lottery-wins",
+      "handler": "lottery-wins.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lottery-wins/count",
+      "handler": "lottery-wins.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lottery-wins/:id",
+      "handler": "lottery-wins.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lottery-wins",
+      "handler": "lottery-wins.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lottery-wins/:id",
+      "handler": "lottery-wins.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lottery-wins/:id",
+      "handler": "lottery-wins.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

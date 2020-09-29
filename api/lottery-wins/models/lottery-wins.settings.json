@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lottery_wins",
+  "info": {
+    "name": "Lottery Wins"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Chance": {
+      "type": "integer"
+    },
+    "RemainingStock": {
+      "type": "integer"
+    },
+    "Serial": {
+      "type": "string"
+    },
+    "Reference": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

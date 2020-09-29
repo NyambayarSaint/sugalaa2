@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wins",
+  "info": {
+    "name": "Wins"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "integer"
+    },
+    "Chance": {
+      "type": "integer"
+    },
+    "Stock": {
+      "type": "integer"
+    }
+  }
+}

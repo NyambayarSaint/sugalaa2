@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "winners",
+  "info": {
+    "name": "Winners"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Ner": {
+      "type": "string"
+    },
+    "Utas": {
+      "type": "string"
+    },
+    "Baraa": {
+      "type": "string"
+    },
+    "Ognoo": {
+      "type": "string"
+    }
+  }
+}
